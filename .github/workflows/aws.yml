@@ -33,11 +33,10 @@ on:
 env:
   AWS_REGION: us-east-2 # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: joaquinterzano/redema-back # set this to your Amazon ECR repository name
-  ECS_SERVICE_HTTP: deploy-aws-test-def-service-ehk1rzom # set this to your Amazon ECS service name
-  ECS_SERVICE: deploy-aws-test-def-service-4qvr408u # set this to your Amazon ECS service name
+  ECS_SERVICE: deploy-aws-test-https-def-service-qxerx2ob # set this to your Amazon ECS service name
   ECS_CLUSTER: redema-back # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION:
-    .aws/deploy-aws-test-https-def-revision4.json # set this to the path to your Amazon ECS task definition
+    .aws/deploy-aws-test-https-def-revision5.json # set this to the path to your Amazon ECS task definition
     # file, e.g. .aws/task-definition.json
   CONTAINER_NAME:
     deploy-aws-test-container # set this to the name of the container in the
